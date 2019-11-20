@@ -1,0 +1,26 @@
+﻿@model IEnumerable<RecipeItem>
+
+@{
+    ViewData["Title"] = "DataPage";
+}
+
+<h1 class="text-center mt-5 mb-5">Recipes</h1>
+
+<div class="ml-5 mr-5 list-group">
+    @foreach (var recipe in Model)
+    {
+        <form id="@recipe.RecipeId" asp-action="DisplayPage" method="post">
+            <input type="hidden" asp-for="@recipe.RecipeId" />
+            <button type="submit" class="list-group-item list-group-item-action btn-outline-primary">
+                Recipe Name: @recipe.RecipeName
+                <p class="m-0">Description: @recipe.Description</p>
+            </button>
+        </form>
+        <form id="@recipe.RecipeId" asp-action="ReviewInitial" method="post">
+            <input type="hidden" asp-for="@recipe.RecipeId" />
+            <button type="submit" class="btn btn-primary">
+                Review @recipe.RecipeName
+            </button>
+        </form>
+    }
+</div>

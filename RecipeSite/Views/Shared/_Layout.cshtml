@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/checkout.css" />
+
+    <title>Test</title>
+</head>
+<body>
+    <header>
+        <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
+            <p class="navbar-brand mb-0">
+                <img src="~/images/fine-recipes-logo.png" alt="Fine Recipes Logo.">
+                <h1><span class="pl-2 font-weight-bold text-white">Fine Recipes</span></h1>
+            </p>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <!-- Index -->
+                        <h3><a class="nav-link" asp-action="Index">Home</a></h3>
+                    </li>
+                    <li class="nav-item">
+                        <!-- DisplayPage -->
+                        <h3><a class="nav-link" asp-action="DisplayPage">View Recipe</a></h3>
+                    </li>
+                    <li class="nav-item">
+                        <!-- InsertPage -->
+                        <h3><a class="nav-link" asp-action="InsertPage">Add Recipe</a></h3>
+                    </li>
+                    <li class="nav-item">
+                        <!-- DataPage -->
+                        <h3><a class="nav-link" asp-action="DataPage">Recipes</a></h3>
+                    </li>
+                    <li class="nav-item">
+                        <!-- UserPage -->
+                        <h3><a class="nav-link" asp-action="UserPage">Reviews</a></h3>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

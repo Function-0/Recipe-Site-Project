@@ -1,0 +1,11 @@
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\bin\Debug\netcoreapp2.0\RecipeSite.deps.json
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\bin\Debug\netcoreapp2.0\RecipeSite.runtimeconfig.json
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\bin\Debug\netcoreapp2.0\RecipeSite.runtimeconfig.dev.json
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\bin\Debug\netcoreapp2.0\RecipeSite.dll
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\obj\Debug\netcoreapp2.0\RecipeSite.csprojAssemblyReference.cache
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\obj\Debug\netcoreapp2.0\RecipeSite.csproj.CoreCompileInputs.cache
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\obj\Debug\netcoreapp2.0\RecipeSite.AssemblyInfoInputs.cache
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\obj\Debug\netcoreapp2.0\RecipeSite.AssemblyInfo.cs
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\bin\Debug\netcoreapp2.0\RecipeSite.pdb
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\obj\Debug\netcoreapp2.0\RecipeSite.dll
+C:\Users\Function\source\repos\RecipeSite\RecipeSite\obj\Debug\netcoreapp2.0\RecipeSite.pdb

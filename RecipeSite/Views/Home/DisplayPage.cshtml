@@ -1,0 +1,40 @@
+﻿@model RecipeFormViewModelData
+
+
+@{
+    ViewData["Title"] = "DisplayPage";
+}
+
+<h1 class="text-center mt-5 mb-5">View Recipe</h1>
+
+<div class="ml-5 mr-5 mb-5">
+    <ul class="list-group">
+        <li class="list-group-item">
+            Recipe Name: @Model.RecipeName
+        </li>
+        <li class="list-group-item">
+            Serving Size: @Model.ServingSize
+        </li>
+        <li class="list-group-item">
+            Description:
+            <p class="m-0">@Model.Description</p>
+        </li>
+        <li class="list-group-item">
+            Ingredients:
+            <p class="m-0">@Model.Ingredient</p>
+        </li>
+        <li class="list-group-item">
+            Equipment:
+            <p class="m-0">@Model.Equipment</p>
+        </li>
+        <li class="list-group-item">
+            Instructions:
+            <p class="m-0">@Model.Instructions</p>
+        </li>
+        <li class="list-group-item">
+            Review:
+            <p class="m-0">@Model.Review</p>
+        </li>
+    </ul>
+</div>
+

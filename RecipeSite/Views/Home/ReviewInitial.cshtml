@@ -1,0 +1,18 @@
+﻿@model RecipeFormViewModelData
+
+@{
+    ViewData["Title"] = "Review";
+}
+
+<h1 class="text-center mt-5 mb-5">Add Review</h1>
+
+<div class="ml-5 mr-5 list-group">
+    <form asp-action="Review" method="post">
+        <div class="form-group">
+            <label asp-for="@Model.Review">Review:</label>
+            <textarea class="form-control" asp-for="@Model.Review" rows="10"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Save</button>
+        <a class="btn btn-primary" asp-action="UserPage">Cancel</a>
+    </form>
+</div>

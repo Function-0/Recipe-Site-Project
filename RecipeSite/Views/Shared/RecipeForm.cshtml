@@ -1,0 +1,35 @@
+﻿@model RecipeFormViewModelData
+
+@{
+    ViewData["Title"] = "RecipeForm";
+}
+
+<form asp-action="InsertPage" method="post">
+    <div asp-validation-summary="All" class="alert-danger"></div>
+        <div class="form-group">
+            <label asp-for="@Model.RecipeName">Recipe Name:</label>
+            <input class="form-control" asp-for="@Model.RecipeName" />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ServingSize">Serving Size:</label>
+            <input class="form-control" asp-for="@Model.ServingSize" />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Description">Description:</label>
+            <textarea class="form-control" asp-for="@Model.Description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Ingredient">Ingredient:</label>
+            <textarea class="form-control" asp-for="@Model.Ingredient" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Equipment">Equipment:</label>
+            <textarea class="form-control" asp-for="@Model.Equipment" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Instructions">Instructions:</label>
+            <textarea class="form-control" asp-for="@Model.Instructions" rows="10"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Save</button>
+        <a class="btn btn-primary" asp-action="Index">Cancel</a>
+</form>
